@@ -1,0 +1,13 @@
+aws_dbt_snowflake_project:
+  outputs:
+    dev:
+      account: RMWZBOQ-VGC32641
+      database: AIRBNB
+      password: "Mayuri@13042000"
+      role: ACCOUNTADMIN
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: MANISHRLAWANDE
+      warehouse: COMPUTE_WH
+  target: dev
